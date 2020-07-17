@@ -126,7 +126,6 @@ def save(request):
     updet.Email=Email
     #updet.Username=name
     updet.Password=Password
-
     updet.gender=gender
     updet.save()
     return render(request,"save.html")

@@ -117,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App1/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="39">
+              <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
                 <marker date="1595001830156" expanded="true" signature="2948:3006" ph="..." />
@@ -256,23 +256,12 @@
             <path>
               <item name="Student_profile_application_using_django_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Student_profile_application_using_django_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="App1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Student_profile_application_using_django_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Student_profile_application_using_django_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="App1" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Student_profile_application_using_django_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Student_profile_application_using_django_framework" type="462c0819:PsiDirectoryNode" />
               <item name="Student_profile_application_using_django_framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Student_profile_application_using_django_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Student_profile_application_using_django_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="studentprofile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,7 +338,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.096066564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,7 +352,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.33387887" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3289689" />
@@ -554,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App1/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="39">
+          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
             <marker date="1595001830156" expanded="true" signature="2948:3006" ph="..." />
