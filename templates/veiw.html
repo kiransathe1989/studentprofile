@@ -1,0 +1,18 @@
+{% extends "mainmenu.html" %}
+{% block comman %}
+    <h4 align="center">
+    Welcome All Employee
+    </h4>
+      {% for x in data6 %}
+        <table align="center" border="2">
+            <tr>
+                <th>{{ x.Name }}</th>
+                <th>{{ x.Age }}</th>
+                <th>{{ x.Contact }}</th>
+                <th>{{ x.Email }}</th>
+                <th>{{ x.Username }}</th>
+                <th>{{ x.gender }}</th>
+            </tr>
+        </table>
+    {% endfor %}
+{% endblock %}

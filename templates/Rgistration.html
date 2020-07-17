@@ -1,0 +1,66 @@
+{% extends "mainmenu.html" %}
+{% load static %}
+ {% block comman %}
+     <html>
+    <head>
+
+        <h1 align="center" style="color: orange">
+            Welcome to the Registration
+        </h1>
+    </head>
+<body >
+
+    <table align="center">
+
+<form action="{% url "savedata" %}" method="post">
+    {% csrf_token %}
+         <tr>
+            <td>
+                <input type="text"  name="Ename" placeholder=" Enter the Name " required>
+            </td>
+        </tr>
+              <tr>
+            <td>
+                <input type="text"  name="EAge" placeholder=" Enter the Age " required>
+            </td>
+           </tr>
+                <th style="text-align: center">
+                <td style="text-align: center;color: red"><input type="radio" name="a1" value="Male">Male</td>
+                <td style="text-align: center;color: red"><input type="radio" name="a1" value="Female">Female</td>
+                <td style="text-align: center;color: red"><input type="radio" name="a1" value="other">Other</td>
+                </th>
+              <tr>
+            <td>
+                <input type="text"  name="Econ" placeholder=" Enter the Contact no " required>
+            </td>
+        </tr>
+              <tr>
+            <td>
+                <input type="text"  name="Email" placeholder=" Enter the Email" required>
+            </td>
+        </tr>
+              <tr>
+            <td>
+                <input type="text"  name="EUser" placeholder=" Enter the User name " required>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <input type="number" name="Epssw" placeholder=" Enter the Password" required><br>
+                <button style="text-align: center;color: red" type="submit">Register</button>
+                <h6 style="align-items: center;color: red">{{ data1 }}</h6>
+                 </form>
+                 <form action="{% url "login" %}" method="post">
+                     {% csrf_token %}
+                <button style="text-align: center;color: red" type="submit">login</button>
+                </form>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+ {% endblock %}

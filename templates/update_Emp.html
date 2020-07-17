@@ -1,0 +1,41 @@
+{% extends "mainmenu.html" %}
+{% block comman %}
+    <h4 align="center">
+    Welcome Employee Update
+    </h4>
+
+      {% for x in data8 %}
+        <table align="center">
+            <tr>
+                <th>{{ x.Name }}</th>
+                <th>{{ x.Age }}</th>
+                <th>{{ x.Contact }}</th>
+                <th>{{ x.Email }}</th>
+                <th>{{ x.Username }}</th>
+                <th>{{ x.gender }}</th>
+                <th><a href="{% url "update2_Emp" %}?mno={{ x.Username }}">Update Emp</a></th>
+            </tr>
+        </table>
+    {% endfor %}
+             <form action="{% url "save" %}" method="post">
+             {% csrf_token %}
+         {% for x in data12 %}
+        <table align="center">
+            <tr>
+                <th> <input type="text" name="t1" value="{{ x.Name }}"></th>
+                <th> <input type="number" name="t2" value="{{ x.Age }}"></th>
+                <th> <input type="number" name="t3" value="{{ x.Contact}}"></th>
+                <th> <input type="email" name="t4" value="{{ x.Email}}"></th>
+                <th> <input type="text" name="t5" value="{{ x.Username}}"></th>
+                <th> <input type="number" name="t6" value="{{ x.Password}}"></th>
+                <th> <input type="text" name="t7" value="{{ x.gender }}"></th>
+            </tr>
+        <tr>
+
+        </tr>
+        </table>
+             <button style="align-items: center" type="submit">Update</button>
+             </form>
+    {% endfor %}
+
+{% endblock %}

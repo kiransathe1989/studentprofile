@@ -1,0 +1,12 @@
+{% extends "mainmenu.html" %}
+{% block comman %}
+    <h3 align="center">Welcome to the Admin</h3>
+   <table align="center">
+   <tr>
+       <th><a class="dropdown-item" href="{% url "create" %}">Add Employee</a></th>
+       <th><a class="dropdown-item" href="{% url "veiw" %}">Veiw All Employee</a></th>
+       <th><a class="dropdown-item" href="{% url "updete" %}">Updete Employee</a></th>
+       <th><a class="dropdown-item" href="{% url "delete" %}">Delete Employee</a></th>
+   </tr>
+   </table>
+{% endblock %}

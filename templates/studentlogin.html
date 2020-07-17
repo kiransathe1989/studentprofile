@@ -1,0 +1,32 @@
+ {% extends "mainmenu.html" %}
+  {% block comman %}
+{% load static %}
+<html>
+<head>
+  <body bgcolor="#87cefa">
+  <table align="center" >
+        <h1 align="center" style="font-family:Arial;color: orangered">Welcome to the student login</h1>
+      <tr>
+            <th>
+                <img style="color: orangered" width="350" height="400" src = "{% static 'images/student10.jpg' %}">
+            </th>
+
+            <form action="{% url "studentlogin" %}" method="post">
+                {% csrf_token %}
+           <th>
+
+                    <input type="text" name="Username" placeholder="Enter the Name" required><br>
+                    <input type="text" name="t2" placeholder="Enter the Password" required><br>
+                    <button style="
+                    text-align: center;color: red" type="submit">login</button></form>
+
+               <h6 style="align-items: center;color: red"> {{ data }}</h6>
+
+          </th>
+      </tr>
+      </table>
+
+</body>
+</head>
+</html>
+   {% endblock %}

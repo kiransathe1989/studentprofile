@@ -1,0 +1,18 @@
+{% extends "mainmenu.html" %}
+{% block comman %}
+    <h3 align="center">Delete Epmloyee</h3>
+ {% for x in dada13 %}
+        <table align="center" border="2">
+            <tr>
+                <th>{{ x.Name }}</th>
+                <th>{{ x.Age }}</th>
+                <th>{{ x.Contact }}</th>
+                <th>{{ x.Email }}</th>
+                <th>{{ x.Username }}</th>
+                <th>{{ x.gender }}</th>
+                 <th><a href="{% url "delet2_Emp" %}?mno={{ x.Username }}">Delet Employee</a></th>
+            </tr>
+        </table>
+    {% endfor %}
+    {{ data14 }}
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "mainmenu.html" %}
+{% block comman %}
+     <table align="center" >
+        <h1 align="center" style="
+        font-family:Arial;color: orangered">Please Enter the new password</h1>
+      <tr>
+          <form action="{% url "Newpassword" %}" method="post">
+              {% csrf_token %}
+           <th>     <input type="text" name="t" placeholder="Enter the New Username" required><br>
+                    <input type="text" name="t1" placeholder="Enter the New password" required><br>
+                    <input type="text" name="t2" placeholder="Conform the password" required><br>
+                    <button style="text-align: center;color: red" type="submit">Login</button></form>
+          </th>
+          </form>
+      </tr>
+  </table>
+
+{% endblock %}
